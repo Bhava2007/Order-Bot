@@ -5,7 +5,7 @@ from openai import OpenAI
 pn.extension()
 
 # ------------------ OPENAI CLIENT ----------------
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="API_KEY")
   # uses OPENAI_API_KEY from environment
 
 # ------------------ CHAT CONTEXT -----------------
@@ -110,3 +110,4 @@ app = pn.Column(
 
 # ------------------ SERVE APP ---------------------
 app.servable()
+
